@@ -12,7 +12,5 @@ class getHosts(Action):
 		zapi.login("Admin", "zabbix")
 
 		for h in zapi.host.get(output="extend"):
-			print h['name']
 			hosts.append(h['name'])
-		print hosts
 		return hosts
