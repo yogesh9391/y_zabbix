@@ -1,0 +1,5 @@
+description: to get list of hosts monitored by zabbix.
+enabled: true
+pack: y_zabbix
+entry_point: get_hosts.py
+name: get_hosts

@@ -1,0 +1,11 @@
+---
+ref: y_zabbix
+name: y_zabbix
+description: StackStorm pack for Zabbix
+keywords:
+  - zabbix
+  - monitor
+  - hosts
+version: 0.1.1
+author: Yogesh Jilhawar
+email: yogeshvj.jilhawar@gmail.com
